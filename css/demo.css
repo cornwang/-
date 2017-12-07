@@ -1,0 +1,37 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: #42cbab;
+}
+.pic{
+    position:absolute;
+    border:solid 14px white;
+    border-radus:10px;
+}
+.pic1{
+    top:10px;
+    left:130px;
+    z-index:1;
+}
+.pic2{
+    top:10px;
+    left:900px;
+    z-index:1;
+}
+.pic3{
+    top:80px;
+    left:280px;
+    z-index:2;
+}
+.pic4{
+    top:80px;
+    left:700px;
+    z-index:2
+}
+.pic5{
+    top:150px;
+    left:500px;
+    z-index:3
+}
