@@ -1,0 +1,52 @@
+
+#myColor{
+    width:200px;
+    height:200px;
+    background-color: #42cbab;
+    margin-top:150px;
+    margin-left:150px;
+}
+#myColor:hover{
+    /* 旋转:1 角度 2 放大倍数 3 偏移量 4 qinxie度*/
+   /* transform: rotate(15deg) scale(1.5) translate(40px) skew(50deg);*/
+   /* -moz-transform:rotate(15deg);
+    -ms-transform:rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -o-transform:rotate(15deg);*/
+    transform:rotate(15deg) scale(1.5);
+    background-color: antiquewhite;
+    /*平话过度 1 让谁有这个效果 2 匀速加载 all 代表上面所有都运用 */
+    transition: all ease-in 3s ;
+}
+
+.pic img{
+    width:400px;
+    position:absolute;
+    border-radius:10px;
+
+}
+.pic1 img{
+    top:80px;
+    left:100px;
+    transform:rotate(30deg);
+}
+.pic2 img{
+    top:220px;
+    left:150px;
+    transform:rotate(50deg);
+}
+.pic3 img{
+    top:180px;
+    left:150px;
+    transform:rotate(-50deg);
+}
+.pic4 img{
+    top:190px;
+    left:130px;
+    transform:rotate(80deg);
+}
+.pic img:hover{
+    transform:rotate(5deg);
+    transition:all ease-in-out 1s;
+    z-index:2;
+}

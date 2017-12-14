@@ -1,0 +1,19 @@
+#pic{
+    position:absolute;
+    top:150px;
+    left:150px;
+    /*自定义*/
+    animation:anima ease-in-out 4s;
+}
+/*自定义动画用法 anima 是上面定义过的*/
+@keyframes anima {
+    0%{
+        transform:rotate(1deg)
+    }
+    50%{
+        transform:rotate(180deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
